@@ -1,0 +1,155 @@
+.educationTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 5rem;
+}
+.educationWrapper{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-column-gap: 1rem; */
+    /* background: aqua; */
+}
+.education1{
+    position: relative;
+    margin-right: 0;
+    grid-column: 1;
+    grid-row: 1/2;
+    border-right: 2px solid rgb(0, 0, 0, 0.4);
+    
+
+}
+.educationFlex{
+    width: 65%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: -1rem 1rem 2rem rgb(0, 0, 0, 0.2);
+    padding: 2rem;
+    background-color: #FFF;
+}
+.left{
+    box-shadow: 1rem 1rem 2rem rgb(0, 0, 0, 0.2);
+}
+.edCollage{
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0, 0.7);
+}
+.edcDesc{
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 1.4rem;
+    text-align: justify;
+
+}
+.education2{
+    position: relative;
+    left: -2px;
+    margin-left: 0;
+    grid-column: 2;
+    grid-row: 2/2;
+    border-left: 2px solid rgb(0, 0, 0, 0.4);
+}
+.education3{
+    position: relative;
+    grid-column: 1;
+    grid-row: 3/3;
+    border-right: 2px solid rgb(0, 0, 0, 0.4);
+
+}
+.absoluteItem{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    z-index: 5;
+    background-color: #ddd6fe;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #fff;
+}
+.absPosition1{
+    right: -21px;
+    top: 45%;
+}
+.absPosition2{
+    left: -21px;
+    top: 45%;
+}
+.absPosition3{
+    top: 40%;
+    right: -21px;
+}
+.abs-icon{
+    width: 2rem;
+    height: 2rem;
+    color: #7c3aed;
+    
+}
+.education4{
+    
+    grid-column: 2;
+    grid-row: 4/4;
+    background: pink;
+
+}
+@media(min-width:700px) and (max-width:1000px){
+    .educationFlex {
+        width: 85%;
+        margin: 2rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+        box-shadow: -1rem 1rem 2rem rgb(0, 0, 0, 0.2);
+        padding: 2rem;
+        background-color: #FFF;
+    
+    }
+}
+@media (max-width:480px){
+    .educationFlex{
+        box-shadow: 1rem 1rem 2rem rgb(0, 0, 0, 0.2);
+    }
+    .educationWrapper{
+        grid-template-columns: 100%;
+        margin-left:3rem;
+    }
+    .education1{
+        grid-column:1;
+        grid-row: 1;
+        border-right: none;
+        border-left: 2px solid rgb(0, 0, 0, 0.4);
+        
+    }
+    .education2{
+        position: relative;
+        left: 0px;
+        grid-column: 1;
+        grid-row: 2;
+        border-left: 2px solid rgb(0, 0, 0, 0.4);
+    }
+    .education3{
+        grid-column: 1;
+        grid-row:3;
+        border-right: none;
+        border-left: 2px solid rgb(0, 0, 0, 0.4);
+    }
+    .educationFlex {
+        width: 85%;
+
+    }
+    .absPosition1{
+        left: -20px;
+        top: 45%;
+    }
+    .absPosition3{
+        top: 40%;
+        left: -21px;
+    }
+}

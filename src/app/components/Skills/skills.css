@@ -1,0 +1,90 @@
+#Skills{
+  margin-top: 23rem;
+}
+.skillsTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+.skillsWrapper {
+  width: 80%;
+  height: auto;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.allSkills {
+  width: 15%;
+  height: 15rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skillsimgwrapper {
+  width: 9rem;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.skillLogo {
+  width: 60%;
+  height: 65%;
+}
+.skillName {
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.htmlBg {
+  background: #f8f1f0;
+}
+.cssBg {
+  background-color: #eff2f7;
+}
+.jsBg {
+  background: #f8f5e8;
+}
+.jqBg{
+    background-color: #E8EEF3;
+}
+.reactBg{
+   background-color: #EFF3F8; 
+}
+.bootBg{
+    background-color: #F2F1F6;
+}
+.mysqlBg{
+    background-color: #F2F0EE;
+}
+.mongoBg{
+    background-color: #EDF3EE;
+}
+.javaBg{
+  background-color: #EDF3EE;
+}
+@media (max-width:490px) {
+
+    .allSkills {
+        width: 20%;
+
+    }
+    .skillsimgwrapper {
+        width: 5rem;
+        height: 5rem;
+    }
+    #Skills {
+      margin-top: 7rem;
+  }
+  .skillsWrapper{
+    justify-content: space-evenly;
+  }
+}

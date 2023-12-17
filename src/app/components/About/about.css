@@ -1,0 +1,249 @@
+#about {
+  margin-top: 15rem;
+  padding-top: 15rem;
+  background: linear-gradient(to bottom, #def2f1, #fff);
+  position: relative;
+  height: 100vh;
+}
+.aboutWave {
+  position: absolute;
+  top: -225px;
+  z-index: 0;
+}
+.aboutSectionWrapper {
+  width: 100%;
+  display: flex;
+  /* background: linear-gradient(to bottom, #DEF2F1, #F8F9FA); */
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.aboutLeftSec {
+  width: 60%;
+  position: relative;
+}
+.aboutLeftSecWrapper {
+  width: 80%;
+  margin: 0 auto;
+  /* position: absolute; */
+  padding-top: 12rem;
+  padding-left: 3rem;
+}
+.aboutRightSec {
+  width: 40%;
+  position: relative;
+}
+.aboutRightSecWrapper {
+  position: absolute;
+  width: 28rem;
+  height: 29rem;
+  top: 3rem;
+  left: 7rem;
+  border: 1px solid black;
+  border-bottom-left-radius: 15rem;
+  box-shadow: 3px -3px 2px 2px #17252a;
+  border: none;
+  overflow: hidden;
+}
+.aboutRightSecWrapper .aboutImage {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  /* border-bottom-left-radius: 15rem; */
+}
+.aboutTitle {
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: -2rem;
+}
+.myName {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 5rem;
+  padding: 1rem 0;
+}
+.about-para {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  text-align: justify;
+  text-align-last: left;
+}
+.aboutContent {
+  margin-inline: 10.6rem;
+}
+.displayMob {
+  display: none;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .aboutWave {
+    position: absolute;
+    top: -167px;
+    z-index: 0;
+  }
+  .aboutSectionWrapper {
+    flex-flow: column-reverse;
+  }
+  .aboutLeftSec {
+    margin-top: 20rem;
+    width: 100%;
+  }
+
+  #about {
+    height: auto;
+    padding-top: 0;
+  }
+  .aboutContent {
+    margin-inline: 9.6rem;
+  }
+  .aboutLeftSecWrapper {
+    padding-left: 0rem;
+  }
+  .displayMob {
+    display: block;
+  }
+  .displayDesk {
+    display: none;
+  }
+  .aboutImage {
+    border-radius: none;
+  }
+  .aboutRightSecWrapper {
+    position: absolute;
+    width: 28rem;
+    height: 29rem;
+    top: 7rem;
+    left: 39rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px -3px 2px 2px #17252a;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .aboutWave {
+    position: absolute;
+    top: -166px;
+    z-index: 0;
+  }
+
+  .aboutSectionWrapper {
+    flex-flow: column-reverse;
+  }
+  .aboutLeftSec {
+    margin-top: 20rem;
+    width: 100%;
+  }
+
+  #about {
+    padding-top: 0;
+    height: auto;
+  }
+  .aboutContent {
+    margin-inline: 9.6rem;
+  }
+  .aboutLeftSecWrapper {
+    padding-left: 0rem;
+  }
+  .displayMob {
+    display: block;
+  }
+  .displayDesk {
+    display: none;
+  }
+  .aboutImage {
+    border-radius: none;
+  }
+  .aboutRightSecWrapper {
+    position: absolute;
+    width: 28rem;
+    height: 29rem;
+    top: 7rem;
+    left: 39rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px -3px 2px 2px #17252a;
+  }
+}
+@media (max-width: 746px) {
+  .aboutWave {
+    top: -130px;
+    z-index: 0;
+  }
+}
+@media (max-width: 583px) {
+  .aboutWave {
+    top: -102px;
+    z-index: 0;
+  }
+  .aboutTitle {
+    top: 1rem;
+  }
+  #about {
+    padding-top: 0;
+  }
+}
+@media (max-width: 480px) {
+  .aboutWave {
+    top: -83px;
+    z-index: 0;
+  }
+  .about-para {
+    text-align: justify;
+    text-align-last: left;
+  }
+  .aboutSectionWrapper {
+    flex-flow: column-reverse;
+  }
+  .aboutLeftSec {
+    margin-top: 20rem;
+    width: 100%;
+  }
+  #about {
+    height: auto;
+    padding-top: 0;
+  }
+
+  .aboutLeftSecWrapper {
+    padding-left: 0rem;
+    padding-top: 5rem;
+  }
+  .displayMob {
+    display: block;
+  }
+  .displayDesk {
+    display: none;
+  }
+
+  .aboutRightSecWrapper {
+    position: absolute;
+    width: 23rem;
+    height: 23rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px -3px 2px 2px #17252a;
+  }
+  .aboutImage {
+    border-radius: none;
+  }
+  .myName {
+    font-weight: 600;
+    font-size: 2.7rem;
+    padding: 0.5rem 0;
+  }
+}
+@media (max-width: 374px) {
+  .aboutWave {
+    top: -65px;
+    z-index: 0;
+  }
+}
+@media (max-width: 300px) {
+  .aboutWave {
+    top: -51px;
+    z-index: 0;
+  }
+  #about {
+    padding-top: 0;
+  }
+}
