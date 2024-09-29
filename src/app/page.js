@@ -10,7 +10,7 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Modal from './components/Modal/Modal'
-
+import WorkExperience from './components/WorkExperience/WorkExperience';
 
 export default function Home() {
   return (
@@ -20,7 +20,8 @@ export default function Home() {
       <About />
       <Skills />
       <Education />
-      <Projects  />
+      <WorkExperience /> {/* New WorkExperience component */}
+      <Projects />
       <Contact />
       <Footer />
     </main>
