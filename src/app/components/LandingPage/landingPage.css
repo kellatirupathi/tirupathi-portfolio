@@ -141,3 +141,34 @@
     text-align-last: start;
   }
 }
+/* Adding the blinking effect with different colors to only "Hire Me" button */
+@keyframes blinkColorsHireMe {
+  0% {
+    background-color: #1b1b1b; /* Original color */
+    color: #fff;
+  }
+  25% {
+    background-color: #ff0000; /* Red */
+    color: #fff;
+  }
+  50% {
+    background-color: #00ff00; /* Green */
+    color: #000;
+  }
+  75% {
+    background-color: #0000ff; /* Blue */
+    color: #fff;
+  }
+  100% {
+    background-color: #1b1b1b; /* Back to original */
+    color: #fff;
+  }
+}
+
+#hiremebut {
+  animation: blinkColorsHireMe 3s infinite; /* 2 seconds for one complete cycle */
+}
+
+#hiremebut:hover {
+  cursor: pointer;
+}
