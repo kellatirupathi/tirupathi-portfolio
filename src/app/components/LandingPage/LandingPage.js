@@ -42,19 +42,12 @@ const LandingPage = () => {
           <div className="landingPageBtnWrapper">
             <a
               className="resumeBtn"
-              href="https://drive.google.com/file/d/1X_Rc4lFtuUV_vssNlHlicZ6b2W551r9M/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-capubm02zo6DSfHpw00c_s258d_ztZk/view?usp=sharing"
               target="_blank"
             >
               Resume <AiOutlineFilePdf />
             </a>
-            <button
-              onClick={() => setShowModal(true)}
-              style={{ marginLeft: "1.2rem", textAlign: "center" }}
-              className="resumeBtn"
-              id="hiremebut"
-            >
-              Hire Me
-            </button>
+            
           </div>
         </section>
       </div>
